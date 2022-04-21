@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+        body {
+            font-family: 'Playfair Display', serif;
+            color:#222;
+
+        }
+        a{
+            text-decoration:none;
+            color:red;
+        }
+        h1{
+            font-size:2em;
+        }
+        p::first-letter{
+            font-size:3em;
+            color:red;
+        }
+        .container {
+            width: 1080px;
+            margin: auto;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+        nav{
+            background-color:#333;
+            width:100%;
+        }
+        nav ul li{
+            list-style:none;
+            display:inline-block;
+            width:150px;
+
+        }
+        nav a{
+            text-decoration:none;
+            display:block;
+            color:white;
+            text-align:center;
+            padding:10px 0
+        }
+        nav a:hover{
+            background-color:red;
+            color:black;
+        }
+        .header-container header{
+            background-color:black;
+            color:white;
+            text-transform:uppercase;
+            padding:10px;
+        }
+        #content{
+            background-color:white;
+            color:black;
+            width:56%;
+            float:left;
+            padding:5px 2%;
+            min-height:500px;
+
+        }
+        #sidemenu{
+            width:36%;
+            float:right;
+            padding:0 2%
+
+        }
+        #sidemenu ul{
+            margin:0;
+            padding:0;
+        }
+        #sidemenu li{
+            list-style-type:none;
+            display:block;
+            width:100%;
+            padding:7px;
+            background-color:black;
+            
+        }
+        #sidemenu p::first-letter{
+            font-size:3em;
+            color:white;
+        }
+        #sidemenu a{
+            text-decoration;none;
+            color:#eee;
+        }
+        #sidemenu li:hover{
+            background-color:#ddd;
+        }
+        .footer-container{
+            background-color:black;
+            clear:both;
+            color:white;
+            text-align:center;
+            padding:10px;
+        }
+        .main-container {
+            background-color: red;
+        }
+        .clearfix{
+            clear:both;
+        }
+        .logo{
+            font-size:2em;
+        }
+        .rcorner{
+            border-radius:15px;
+            background-color:black;
+            padding:15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-container">
+            <header>
+                <div class="logo">Design Sell</div>
+
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="main-container">
+            <div id="content">
+                <header><h1>Main Page Content</h1></header>
+                <p>Some content <a href="#">webiste link</a> blah</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book.</p>
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+
+
+                   <p> 
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.</p>
+
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+                    
+                <footer>Share on social Media</footer>
+
+            </div>
+            <aside id="sidemenu">
+                <h3>Newsfeed</h3>
+                <p>Most generators only output some paragraphs of about the same length. Sometimes you need lists, headings, long paragraphs, etc. The website/magazine that you're designing probably isn't going to be filled with happy uniform paragraphs, so your placeholder text should reflect that.</p>
+                <div class="rcorner">
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Reach out</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </div>
+        <div class="footer-container">
+            <footer><div>(c) Copyright 2017 discoveryvip</div>
+            <div>More info to get a hold of us</div></footer>
+        </div>
+    </div>
+
+</body>
+</html>
